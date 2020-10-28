@@ -108,7 +108,7 @@
     text-align: center;
 }
 
-#Products-Pens {
+#Products-Category {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -153,7 +153,7 @@
     display: grid;
 }
 
-.Pens-Title {
+.Products-Title {
     margin-top: 68px;
     margin-bottom: 40px;
 }
@@ -524,7 +524,7 @@ content{
     margin-right: 30px;
 }
 
-#Products-Pens {
+#Products-Category {
     /*
     width: 0px;
     height: 0px;
@@ -584,7 +584,7 @@ cursor: url() auto;
   /* Show the dropdown-1 menu on hover */
   .dropdown-1:hover .dropdown-1-content {
     outline: none;
-    display: block;
+    display: flex;
   }
   
   /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
@@ -703,6 +703,59 @@ cursor: url() auto;
     color: rgb(56, 56, 56);
   }
 
+  /* Style The Dropdown Button */
+ .dropbtn4 {
+    outline: none;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown-1 content */
+  .dropdown4 {
+    outline: none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown4-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown-1 */
+  .dropdown4-content a {
+    outline: none;
+    color: rgb(56, 56, 56);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown-1 links on hover */
+  .dropdown4-content a:hover {outline: none; background-color: white}
+  
+  /* Show the dropdown-1 menu on hover */
+  .dropdown4:hover .dropdown4-content {
+    outline: none;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
+  .dropdown4:hover .dropbtn4 {
+    outline: none;
+    color: rgb(56, 56, 56);
+  }
+
 .dropdown-1 {
     transition: 2s ease-out 1s;
 }
@@ -710,5 +763,8 @@ cursor: url() auto;
     transition: 2s ease-out 1s;
 }
 .dropdown3 {
+    transition: 2s ease-out 1s;
+}
+.dropdown4 {
     transition: 2s ease-out 1s;
 }

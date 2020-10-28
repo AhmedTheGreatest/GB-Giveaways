@@ -28,7 +28,7 @@
                 </a>
                 <div class="dropdown-1-menu" aria-labelledby="navbarDropdownMenuLink">
                   <!--
-                  <a class="dropdown-1-item" href="./Products.html#Products-Pens">Pens</a>
+                  <a class="dropdown-1-item" href="./Products.html#Products-Category">Pens</a>
                   <a class="dropdown-1-item" href="./Products.html#Products-Computers-And-Accessories">Computers And Accessories</a>
                   <a class="dropdown-1-item" href="./Products.html#Products-HouseHold">House Hold</a><!--
 
@@ -37,11 +37,11 @@
                   </a>
                   <div class="dropdown-1-menu" aria-labelledby="navbarDropdownMenuLink">
                     <!--
-                    <a class="dropdown-1-item" href="./Products.html#Products-Pens">Pens</a>
+                    <a class="dropdown-1-item" href="./Products.html#Products-Category">Pens</a>
                     <a class="dropdown-1-item" href="./Products.html#Products-Computers-And-Accessories">Computers And Accessories</a>
                     <a class="dropdown-1-item" href="./Products.html#Products-HouseHold">House Hold</a>
                     <!--
-                    <a class="dropdown-1-item" href="./Products.html#Products-Pens">Mont Blanc</a>
+                    <a class="dropdown-1-item" href="./Products.html#Products-Category">Mont Blanc</a>
                     <a class="dropdown-1-item" href="./Products.html#Products-Computers-And-Accessories">Parker</a>
                     <a class="dropdown-1-item" href="./Products.html#Products-Computers-And-Accessories">Cross</a>
                     <a class="dropdown-1-item" href="./Products.html#Products-HouseHold">Emnbassador</a>
@@ -76,10 +76,41 @@
                   <div class="dropdown3">
                     <button class="dropbtn3"><b>USB</b></button>
                     <div class="dropdown3-content">
-                      <a href="#">San Disk</a>
-                      <a href="#">Kingston</a>
-                      <a href="#">HP</a>
-                      <a href="#">Samsung</a>
+                      <a onclick="EnableSanDisk()" href="Products.html#Products-SanDisk">San Disk</a>
+                      <a onclick="EnableKingston()" href="Products.html#Products-Kingston">Kingston</a>
+                      <a onclick="EnableHP()" href="Products.html#Products-HP">HP</a>
+                      <a onclick="EnableSamsung()" href="Products.html#Products-Samsung">Samsung</a>
+                      <a onclick="EnableCustomized()" href="Products.html#Products-Customized">Customized</a>
+                    </div>
+                  </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>Mugs</b></button>
+                    <div class="dropdown4-content">
+                      <a onclick="EnableMugsCustomized()" href="Products.html#Products-Mugs-Customized">Customized</a>
+                    </div>
+                  </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>Power Banks</b></button>
+                    <div class="dropdown4-content">
+                      <a onclick="EnablePowerBanksCustomized()" href="Products.html#Products-PowerBanks-Customized">Customized</a>
+                      <a onclick="EnablePowerBanksSamsung()" href="Products.html#Products-PowerBanks-Samsung">Samsung</a>
+                      <a onclick="EnablePowerBanksAnker()" href="Products.html#Products-PowerBanks-Anker">Anker</a>
+                      <a onclick="EnablePowerBanksXiaomi()" href="Products.html#Products-PowerBanks-Xiaomi">Xiaomi</a>
+                      <a onclick="EnablePowerBanksInfinix()" href="Products.html#Products-PowerBanks-Infinix">Infinix</a>
+                      <a onclick="EnablePowerBanksRomoss()" href="Products.html#Products-PowerBanks-Romoss">Romoss</a>
+                    </div>
+                  </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>Clocks</b></button>
+                    <div class="dropdown4-content">
+                      <a onclick="EnableTableClocks()" href="Products.html#Products-TableClocks">Table Clocks</a>
+                      <a onclick="EnableWallClocks()" href="Products.html#Products-WallClocks">Wall Clocks</a>
+                    </div>
+                  </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>T-Shirts</b></button>
+                    <div class="dropdown4-content">
+                      <a onclick="EnableCustomizedTShirts()" href="Products.html#Products-T-Shirts">Customized</a>
                     </div>
                   </div>
                 </div>  
@@ -106,8 +137,8 @@
     <main>
         <content>
             <div class="Products-Products">
-              <h3 class="Pens-Title">PENS</h3>
-                <div id="Products-Pens" class="MontBlanc">
+              <h3 class="Products-Title">PENS</h3>
+                <div id="Products-Category" class="MontBlanc">
 
                     <div class="card Product" style="width: 18rem;">
                       <img src="./imgs\MontBlanc Pen-1.jpg" class="card-img-top" alt="...">
@@ -474,7 +505,7 @@
                     </div>
                 </div>
                 
-                <div id="Products-Pens" class="Parker">
+                <div id="Products-Category" class="Parker">
                   <div class="card Product" style="width: 18rem;">
                     <img src="./imgs/parker_imgs\Parker Pen-51.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -721,7 +752,7 @@
                   </div>
                 </div>
 
-                <div id="Products-Pens" class="Cross">
+                <div id="Products-Category" class="Cross">
                   <div class="card Product" style="width: 18rem;">
                     <img src="./imgs/Cross\Cross Pen-86.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -758,7 +789,7 @@
                   </div>
                 </div>
 
-                <div id="Products-Pens" class="Senator">
+                <div id="Products-Category" class="Senator">
                   <div class="card Product" style="width: 18rem;">
                     <img src="./imgs/Senator\Senator Pen-100.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -963,24 +994,587 @@
                   </div>
                 </div>
 
-                <div id="Products-Pens" class="Embassador">
+                <div id="Products-Category" class="Embassador">
                   
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Ambassador Pen-125.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-19.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
+                                
+                  <div class="card Product" style="width: 18rem;">
+                    <img src="./imgs/Embassador\Embassador Pen-9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Embassador</h5>
+                    </div>
+                  </div>
                 </div>
 
-                  <!--
-                  <h3 class="HouseHold-Title">HOUSE HOLD</h3>
-                  <div id="Products-HouseHold">
-                    
-                  </div>
-                    
                   
-                  <h3 class="Computers-Title">COMPUTERS ACCESSORIES</h3>
-                  <div id="Products-Computers-And-Accessories">
-                        
+                  
+                  <div id="Products-Category" class="Kingston">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/USB/Kingston\Kingston 16GB SE9  DTSE9 3.0 USB-8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Kingston</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/USB/Kingston\Kingston 64GB 3.0 USB-6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Kingston</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/USB/Kingston\Kingston 64GB USB-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Kingston</h5>
+                      </div>
+                    </div>
                   </div>
-                -->
-              
-                
+
+                  <div id="Products-Category" class="SanDisk">
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/SanDisk\SanDisk 128GB Cruzer Blade 2.0 USB-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SanDisk</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/SanDisk\SanDisk 64GB Ultra Dual Drive 3.0 USB-9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SanDisk</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/SanDisk\SanDisk 64GB Ultra Trek 3.0 USB-7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SanDisk</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/SanDisk\SanDisk 64GB Ultra-Fair 3.0 USB-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SanDisk</h5>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="HP">
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/HP\HP 16GB USB-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">HP</h5>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="Samsung">
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Samsung\Samsung [STORAGE] Bar 3.1 USB-10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung</h5>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="Customized">
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-13.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-14.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-16.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-17.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-18.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-19.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-20.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-21.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-22.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-23.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-24.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div>
+                                    
+                    <div class="card Product" style="width: 18rem;">
+                        <img src="./imgs/USB/Customized\Custom USB-25.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Customized</h5>
+                        </div>
+                    </div> 
+                  </div>
+
+                  <div id="Products-Category" class="Mugs-Customized">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Mugs\Mug-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Mugs\Mug-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Mugs\Mug-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Mugs\Mug-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Mugs\Mug-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Customized">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Customized\Custom-Power-Bank-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Customized\Customized-Power-Bank-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Customized\Customized-Power-Bank-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Customized\Customized-Power-Bank-6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Customized</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Anker">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Anker\Anker- PowerCore3-Power-Bank-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Anker</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Samsung">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Samsung\Samsung-FastCharge-Power-Bank-10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Samsung</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Romoss">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Romoss\Romoss-Power-Bank-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Romoss</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Xiaomi">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Xiaomi\Xiaomi-Power-Bank-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Xiaomi</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Xiaomi\Xiaomi-Redmi-Power-Bank-9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Xiaomi</h5>
+                      </div>
+                    </div>
+                                  
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Xiaomi\Xiaomi-Wireless-Power-Bank-8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Xiaomi</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="PowerBanks-Infinix">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Power Banks/Infinix\Infinix-Power-Bank-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Infinix</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="Clocks-TableClocks">        
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Table Clocks\Clock-8.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Table Clock</h5>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div id="Products-Category" class="Clocks-WallClocks">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Wall Clocks\Clock-10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Wall Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Wall Clocks\Clock-11.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Wall Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Wall Clocks\Clock-12.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Wall Clock</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/Clocks/Wall Clocks\Clock-9.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Wall Clock</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="Products-Category" class="T-Shirts">
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/T-Shirts\T-Shirt-1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">T-Shirts</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/T-Shirts\T-Shirt-2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">T-Shirts</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/T-Shirts\T-Shirt-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">T-Shirts</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/T-Shirts\T-Shirt-4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">T-Shirts</h5>
+                      </div>
+                    </div>
+
+                    <div class="card Product" style="width: 18rem;">
+                      <img src="./imgs/T-Shirts\T-Shirt-5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">T-Shirts</h5>
+                      </div>
+                    </div>
+                  </div>
 
             </div>
             <div class="CONTACT_BTNs">
