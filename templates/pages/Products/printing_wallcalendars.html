@@ -1,0 +1,30 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Wall Calendars</h3>
+<div id="Products-Category" class="Wall-Calendars">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Printing Items/Wall Calendars/Calendar-1.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Wall Calendar</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Printing Items/Wall Calendars/Calendar-2.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Wall Calendar</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Printing Items/Wall Calendars/Calendar-3.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Wall Calendar</h5>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

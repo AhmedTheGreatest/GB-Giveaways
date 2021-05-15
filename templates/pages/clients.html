@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %} Clients {% endblock %}
+{% block content %}
+    <div class="Clients_IMG-Parent">
+        <img class="Clients_IMG" src="{{ url_for('static', filename='Banner/Clients.jpeg')}}" alt="">
+    </div>
+  
+    <div class="clients-pics-par">
+        <div class="clients-pics">
+        <a class="pic-link IBA-Link" href="#"><img class="pic IBA" src="{{ url_for('static', filename='Clients/IBA.png')}}" alt="IBA"></a>
+        <a class="pic-link RB-Link" href="#"><img class="pic RB" src="{{ url_for('static', filename='Clients/Reckitt Benckiser.png')}}" alt="Reckitt Benckiser"></a>
+        <a class="pic-link DG-Cement-Link" href="#"><img class="pic DG-Cement" src="{{ url_for('static', filename='Clients/DG-Cement.png')}}" alt="DG Cement"></a>
+        <a class="pic-link Unilever-Link" href="#"><img class="pic Unilever" src="{{ url_for('static', filename='Clients/Unilever.png')}}" alt="Unilever"></a>
+        <a class="pic-link City-School-Link" href="#"><img class="pic City-School" src="{{ url_for('static', filename='Clients/City-School.png')}}" alt="City School"></a>
+        <a class="pic-link FP-School-Link" href="#"><img class="pic FP-School" src="{{ url_for('static', filename='Clients/Foundation-Public-School.png')}}" alt="Foundation Public School"></a>
+        <a class="pic-link ICI-Link" href="#"><img class="pic ICI" src="{{ url_for('static', filename='Clients/ICI.png')}}" alt="ICI"></a>
+        <a class="pic-link Lucky-Cement-Link" href="#"><img class="pic Lucky-Cement" src="{{ url_for('static', filename='Clients/Lucky-Cement.png')}}" alt="Lucky Cement"></a>
+        <a class="pic-link NED-Link" href="#"><img class="pic NED" src="{{ url_for('static', filename='Clients/NED.png')}}" alt="NED University"></a>
+        <a class="pic-link Karachi-University-Link" href="#"><img class="pic Karachi-University" src="{{ url_for('static', filename='Clients/Karachi-University.png')}}" alt="Karachi-University"></a>
+        <a class="pic-link Asia-Continental-Link" href="#"><img class="pic Asia-Continental" src="{{ url_for('static', filename='Clients/Asia-Continental.png')}}" alt="Asia Continental"></a>
+        <a class="pic-link American-School-Link" href="#"><img class="pic American-School" src="{{ url_for('static', filename='Clients/American-School.png')}}" alt="American School"></a>
+        </div>
+    </div>
+{% endblock %}

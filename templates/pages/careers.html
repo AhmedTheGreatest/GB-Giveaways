@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %} Careers {% endblock %}
+{% block content%} 
+    <img class="Career_IMG" src="{{ url_for('static', filename='Banner/CAREER_BANNER.jpeg')}}" alt="Career Banner">
+    <p class="Careers-Text">
+    Explore opportunities to take your career to the next level. Whether you are a student, graduate or an experienced professional, discover the impact you could make with a career at GB.
+    </p>
+
+    <h4 class="Opportunity-Header"><b>Enterprenurial Opportunity</b></h4>
+
+    <p class="Opportunity"><b>GB</b> Brings To You An Exciting <b>Enterprenurial</b> If You Have An Enterprenurial Sprit & Passion For Innovation <b>GB</b> Can Offer You Exciting Opportunities</p>
+
+    <h4 class="Career1-Header">Please Send Us Your <b>CV</b> At <b>thegbtraders@gmail.com</b></h4>
+
+    <h5 class="current_job">Current Job: Enternship</h5>
+
+
+    <!--TRIGGER-->
+    <button type="button" class="btn btn-primary  modal-trigger-btn" data-toggle="modal" data-target="#Modal">Apply Now</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Apply</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <p><b>Current Job: Enternship</b></p>
+            <p><b>Internships Details:</b><br>
+            <b>Timeline</b>: 3 months 
+            Hours: 24 hours per week (Flexible)<br>
+            <b>Stipend:</b> PKR 4000 at the end of internship<br>
+            <b>Office:</b> Room G4 ,ground Floor, CED Building, IBA Main Campus.<br>
+            <b>Available positions:</b> 2<br>
+            
+            <br>
+            We need multiple interns for Marketing, you can walk in for interview during 2pm-5pm from Mon-Friday at the office.
+            or send us your CV/Résumé at <strong>thegbtraders@gmail.com</strong> 
+            <br>
+            
+            <br><b>Marketing Intern:</b><br>
+            The marketing project involves devising and executing a marketing strategy for our internal brands and the interns would be given specific targets to meet at the end of the internship. You would learn a great deal about SEO, backlinks, Google analytics, Google Search Console and Facebook analytics.
+            
+            The position might lead to part time offer while studying to interns with high KPIs.
+            
+            Feel free to reach out to number below for any queries or visit our office.</p>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}

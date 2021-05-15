@@ -1,0 +1,781 @@
+
+.Home-Page {
+    background-color: rgba(255, 255, 255, 100);
+}
+/*
+.intro {
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+    text-align: center;
+}
+  
+.name {
+    text-align: center;
+    text-decoration: solid;
+    font-weight: 500;
+}
+  
+.role {
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+}
+*/
+
+.ContactUs-Name {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ContactUs-Email {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ContactUs-NO1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ContactUs-NO2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ContactUs-TEL-NO {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ContactUs-ADDR {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.AboutUs-AboutGB {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.AboutUs-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.AboutUs-Mission-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.AboutUs-Mission-TXT {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Clients-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ContactUs-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Products-Products {
+    display: grid;
+    margin-top: 20px;
+    place-items: center;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Products-Category {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    place-self: center;
+    place-content: center;
+}
+
+
+#Products-Computers-And-Accessories {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    place-self: center;
+    place-content: center;
+}
+
+#Products-HouseHold {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    place-self: center;
+    place-content: center;
+}
+
+.Product {
+    margin: 15px;
+    display: grid;
+}
+
+.Products-Title {
+    margin-top: 68px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.HouseHold-Title {
+    margin-top: 68px;
+    margin-bottom: 40px;
+}
+
+.Computers-Title {
+    margin-top: 68px;
+    margin-bottom: 40px;
+}
+
+.slides-parent {
+    display: grid;
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    height: 60vh;
+    width: 95vw;
+}
+.slides {
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 95vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.starter-img {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 95vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.Home-Page {
+    background-color: white;
+}
+
+.MainText { 
+    margin-top: 50px;
+    text-align: center;
+}
+
+.description {
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+.copyright-section {
+    width: 100%;
+    margin-top: 28px;
+    padding: 8px;
+    background-color: rgb(221, 221, 221);
+}
+
+.copyright-section-C {
+    width: 100%;
+    margin-top: 10vh;
+    padding: 8px;
+    background-color: rgb(221, 221, 221);
+}
+
+.copyright-text {
+    margin-top: 1vh;
+    color: rgb(46, 46, 46);
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+
+content{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+  
+.copyright-section{ 
+    min-height:50px; 
+}
+
+.Careers-Text {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Careers-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.Services-Text {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.Services-Text-2 {
+    margin-bottom: 20vh;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.Services-Header {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.IBA-MAP {
+    width: 100%;
+    height: 30vh;
+}
+
+.Nav-Logo {
+    height: 5vh
+}
+
+.Home-Page {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+.AboutUs {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+.ContactUs {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+.Careers {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+.Services {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+
+.Products {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+
+.Clients {
+    background-origin: padding-box;
+    background-position-y: 360px;
+    background-size: 100%;
+    background-image: url(./BG/GB_INDEX_BG.png);
+}
+
+.WA_BTN {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 5vh;
+}
+
+.FB_BTN {
+    position: fixed;
+    right: 15px;
+    bottom: 68px;
+    height: 5vh;
+}
+
+.INSTA_BTN {
+    position: fixed;
+    right: 15px;
+    bottom: 120px;
+    height: 5vh;
+    border-radius: 30px;
+}
+.AboutUs_IMG {
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.AboutUs_IMG-Parent {
+    margin-bottom: 40px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    width: 100vw;
+}
+
+.Clients_IMG {
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.Clients_IMG-Parent {
+    margin-bottom: 40px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    width: 100vw;
+}
+
+.Career1-Header {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(109, 109, 109);
+    margin-top: 60px;
+}
+
+.Career_IMG {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.Careers-Text {
+    font-weight: 500;
+}
+
+
+.Opportunity-Header {
+    text-align: center;
+    margin: 40px;
+    font-weight: 600;
+}
+
+.Opportunity {
+    font-weight: 600;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.Our_Services_Banner {
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 95vw;
+    background-color: rgb(220, 250, 255);
+}
+
+.Our_Services_Banner_Parent {
+    margin-bottom: 40px;
+    display: grid;
+    align-items: center;
+    place-items: center;
+    transform-origin: center;
+    width: 100vw;
+}
+
+.Services-Text-2 {
+    margin-bottom: 20vh;
+}
+
+
+
+.clients-pics-par {
+    display: grid;
+    margin-top: 20px;
+    place-items: center;
+    place-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.clients-pics {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    place-items: center;
+    place-self: center;
+    place-content: center;
+}
+
+.pic-link {
+    margin: 15px;
+    display: grid;
+}
+
+.pic {
+    filter: grayscale(100%)
+}
+.pic:hover {
+   animation: pic-hover 0.4s ease-out forwards;
+}
+
+@keyframes pic-hover {
+    from {
+        filter: grayscale(100%)
+    }
+    to {
+        filter: grayscale(0%)
+    }
+}
+
+.pic {
+    height: 10vh;
+}
+
+.current_job {
+    text-align: center;
+    padding: 70px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(70, 70, 70)
+}
+
+.modal-trigger-btn {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.careers_link {
+    text-decoration: none;
+}
+
+.careers_link:hover {
+    text-decoration: none;
+}
+
+.Opportunity {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*
+#Products-Category {
+    
+    width: 0px;
+    height: 0px;
+    position: none; 
+    display: none;
+    visibility: none;
+    
+}
+/*
+* {
+cursor: url() auto;
+}
+
+*/
+
+/* Style The Dropdown Button */
+.dropbtn {
+    outline: none;
+    background-color: #F8F9FA;
+    color: rgb(56, 56, 56);
+    margin: 3px;
+    margin-top: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown-1 content */
+  .dropdown-1 {
+    outline: none;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-1-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown-1 */
+  .dropdown-1-content a {
+    outline: none;
+    color: rgb(56, 56, 56);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown-1 links on hover */
+  .dropdown-1-content a:hover {outline: none; background-color: white}
+  
+  /* Show the dropdown-1 menu on hover */
+  .dropdown-1:hover .dropdown-1-content {
+    outline: none;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
+  .dropdown-1:hover .dropbtn {
+    outline: none;
+    color: rgb(56, 56, 56);
+  }
+
+
+
+ /* Style The Dropdown Button */
+ .dropbtn2 {
+    outline: none;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown-1 content */
+  .dropdown2 {
+    outline: none;
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown2-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -40px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown-1 */
+  .dropdown2-content a {
+    outline: none;
+    color: rgb(56, 56, 56);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown-1 links on hover */
+  .dropdown2-content a:hover {outline: none; background-color: white}
+  
+  /* Show the dropdown-1 menu on hover */
+  .dropdown2:hover .dropdown2-content {
+    outline: none;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
+  .dropdown2:hover .dropbtn2 {
+    outline: none;
+    color: rgb(56, 56, 56);
+  }
+
+
+
+   /* Style The Dropdown Button */
+ .dropbtn3 {
+    outline: none;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown-1 content */
+  .dropdown3 {
+    outline: none;
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown3-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -55px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown-1 */
+  .dropdown3-content a {
+    outline: none;
+    color: rgb(56, 56, 56);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown-1 links on hover */
+  .dropdown3-content a:hover {outline: none; background-color: white}
+  
+  /* Show the dropdown-1 menu on hover */
+  .dropdown3:hover .dropdown3-content {
+    outline: none;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
+  .dropdown3:hover .dropbtn3 {
+    outline: none;
+    color: rgb(56, 56, 56);
+  }
+
+  /* Style The Dropdown Button */
+ .dropbtn4 {
+    outline: none;
+    background-color: white;
+    color: rgb(56, 56, 56);
+    padding: 8px 16px 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown-1 content */
+  .dropdown4 {
+    outline: none;
+    position: relative;
+    display: block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown4-content {
+    outline: none;
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -55px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown-1 */
+  .dropdown4-content a {
+    outline: none;
+    color: rgb(56, 56, 56);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown-1 links on hover */
+  .dropdown4-content a:hover {outline: none; background-color: white}
+  
+  /* Show the dropdown-1 menu on hover */
+  .dropdown4:hover .dropdown4-content {
+    outline: none;
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown-1 button when the dropdown-1 content is shown */
+  .dropdown4:hover .dropbtn4 {
+    outline: none;
+    color: rgb(56, 56, 56);
+  }
+
+.dropdown-1 {
+    transition: 2s ease-out 1s;
+}
+.dropdown2 {
+    transition: 2s ease-out 1s;
+}
+.dropdown3 {
+    transition: 2s ease-out 1s;
+}
+.dropdown4 {
+    transition: 2s ease-out 1s;
+}

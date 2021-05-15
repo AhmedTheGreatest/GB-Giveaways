@@ -1,0 +1,30 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Xiaomi Power Banks</h3>
+<div id="Products-Category" class="Powerbanks-Xiaomi">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Power Banks/Xiaomi/Xiaomi-Power-Bank-4.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Xiaomi Power Banks</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Power Banks/Xiaomi/Xiaomi-Redmi-Power-Bank-9.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Xiaomi Power Banks</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Power Banks/Xiaomi/Xiaomi-Wireless-Power-Bank-8.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Xiaomi Power Banks</h5>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
