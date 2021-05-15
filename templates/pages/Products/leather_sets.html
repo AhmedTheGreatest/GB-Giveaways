@@ -1,0 +1,23 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Leather Sets</h3>
+<div id="Products-Category" class="Leather-Sets">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Leather-Items/Sets/Set-1.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Leather Set</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Leather-Items/Sets/Set-2.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Leather Set</h5>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

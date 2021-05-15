@@ -1,0 +1,44 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Masks</h3>
+<div id="Products-Category" class="Masks">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Surgical/Masks/9010-3.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mask</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Surgical/Masks/Customized-5.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mask</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Surgical/Masks/KN95-2.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mask</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Surgical/Masks/N95-1.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mask</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/Surgical/Masks/Surgical-4.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Mask</h5>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

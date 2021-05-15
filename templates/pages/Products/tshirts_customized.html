@@ -1,0 +1,44 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Customized T-Shirts</h3>
+<div id="Products-Category" class="T-Shirts">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/T-Shirts//T-Shirt-1.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Customized T-Shirt</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/T-Shirts//T-Shirt-2.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Customized T-Shirt</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/T-Shirts//T-Shirt-3.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Customized T-Shirt</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/T-Shirts//T-Shirt-4.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Customized T-Shirt</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/T-Shirts//T-Shirt-5.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Customized T-Shirt</h5>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

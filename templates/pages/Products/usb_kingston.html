@@ -1,0 +1,31 @@
+
+{% extends "base.html" %}
+{% block title %} Products {% endblock %}
+{% block content %}
+<h3 class="Products-Title">Kingston USB</h3>
+<div id="Products-Category" class="Kingston">
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/USB/Kingston/Kingston 16GB SE9  DTSE9 3.0 USB-8.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Kingston USB</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/USB/Kingston/Kingston 64GB 3.0 USB-6.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Kingston USB</h5>
+        </div>
+    </div>
+
+    <div class="card Product" style="width: 18rem;">
+        <img src="{{ url_for('static', filename='imgs/USB/Kingston/Kingston 64GB USB-5.jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Kingston USB</h5>
+        </div>
+    </div>
+
+</div>
+    {% endblock %}
+    

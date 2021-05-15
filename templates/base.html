@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=PE, initial-scale=1.0">
+    <title>GB Giveaways ||{% block title%}{% endblock %}</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='Icon/GB_icon.png')}}" type="image/png">
+</head>
+<body class="Home-Page">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+
+    <div class="NavBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          
+            <a class="navbar-brand" href="/"><img class="Nav-Logo" src="{{ url_for('static', filename='Icon/GB_icon.png')}}" alt="The GB"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="/aboutus">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/clients">Our Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/services">Services</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <div class="dropdown-1">
+                      <button class="dropbtn">Products</button>
+                      <div class="dropdown-1-content">
+                      <div class="dropdown2">
+                      <button class="dropbtn2"><b>Pens</b></button>
+                      <div class="dropdown2-content">
+                        
+                        <a href="/products/pens/montblanc">Mont Blanc</a>
+                        <a href="/products/pens/cross">Cross</a>
+                        <a href="/products/pens/parker">Parker</a>
+                        <a href="/products/pens/embassador">Embassador</a>
+                        <a href="/products/pens/senator">Senator</a>
+
+                      </div>
+                    </div>
+                    <div class="dropdown3">
+                      <button class="dropbtn3"><b>USB</b></button>
+                      <div class="dropdown3-content">
+                        
+                        <a href="/products/usb/sandisk">San Disk</a>
+                        <a href="/products/usb/kingston">Kingston</a>
+                        <a href="/products/usb/hp">HP</a>
+                        <a href="/products/usb/samsung">Samsung</a>
+                        <a href="/products/usb/customized">Customized</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Mugs</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/mugs/customized">Customized</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Power Banks</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/powerbanks/customized">Customized</a>
+                        <a href="/products/powerbanks/samsung">Samsung</a>
+                        <a href="/products/powerbanks/anker">Anker</a>
+                        <a href="/products/powerbanks/xiaomi">Xiaomi</a>
+                        <a href="/products/powerbanks/infinix">Infinix</a>
+                        <a href="/products/powerbanks/romoss">Romoss</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Clocks</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/clocks/tableclocks">Table Clocks</a>
+                        <a href="/products/clocks/wallclocks">Wall Clocks</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>T-Shirts</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/tshirts/customized">Customized</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Keychains</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/keychains/customized">Customized</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Lightning</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/lightning/torches">Torches</a>
+                        <a href="/products/lightning/emergencylights">Emergency Lights</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Leather Items</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/leather_items/wallets">Wallets</a>
+                        <a href="/products/leather_items/phonecovers">Phone Cover</a>
+                        <a href="/products/leather_items/mousepads">Leather Mouse Pads</a>
+                        <a href="/products/leather_items/laptopbags">Laptop Bags</a>
+                        <a href="/products/leather_items/sets">Sets</a>
+                      </div>
+                    </div>
+                    <div class="dropdown4">
+                      <button class="dropbtn4"><b>Surgical</b></button>
+                      <div class="dropdown4-content">
+                        <a href="/products/surgical/masks">Masks</a>
+                        <a href="/products/surgical/gloves">Gloves</a>
+                        <a href="/products/surgical/thermometer">Thermometer</a>
+                      </div>
+                    </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>Printing Items</b></button>
+                    <div class="dropdown4-content">
+                        <a href="/products/printing/tablecalendars">Table Calendars</a>
+                        <a href="/products/printing/wallcalendars">Wall Calendars</a>
+                        <a href="/products/printing/diaries">Diaries</a>
+                    </div>
+                  </div>
+                  <div class="dropdown4">
+                    <button class="dropbtn4"><b>Caps</b></button>
+                    <div class="dropdown4-content">
+                      <a href="/products/caps/customized">Customized Caps</a>
+                    </div>
+                  </div>
+                  </div>  
+                  </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/careers">Careers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contactus">Contact Us</a>
+                  </li>
+                </li>
+              </ul>
+            </div>
+
+          </nav>   
+    </div>
+        
+    
+
+    <main>
+        <content>
+            {% block content%}
+
+            {% endblock %}
+          
+            <div class="Products-Products">
+              {% block products %}
+
+              {% endblock %}
+            </div>
+
+          <div class="CONTACT_BTNs">
+            <a href="https://api.whatsapp.com/send?phone=+923006628697" target="_blank"><img src="{{ url_for('static', filename='Icon/WA-ICON.png')}}" alt="Whatsapp" class="WA_BTN"></a>
+            <!--<a href="" target="_blank"><img src="./Icon/Facebook_ICON.png" alt="Facebook" class="FB_BTN"></a>
+            <a href="" target="_blank"><img src="./Icon/Insta_Icon.png" alt="Instagram" class="INSTA_BTN"></a>-->
+          </div>
+
+          
+            <div class="copyright-section">
+              <h6 class="copyright-text"> Copyright © 2020 The GB Traders Inc. All rights reserved</h6>
+            </div>
+          
+          
+          </content>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js')}}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+<!--WE PROMOTE YOUR PRODUCTS & AS WELL YOUR COMPANY-->
+<!-- delivers the creative promotional products and custom giveaways services in Pakistan with the best quality and standards which create strong positive impact. If you’re looking for out of the box giveaway ideas for your upcoming promotion, contact us. Our team is energetic, passionate, professional and extremely knowledgeable. With our admired custom giveaway ideas we study your brand personality and come up with the genre which best suits your brand. It helps you in increasing your brand’s visibility at your next event or trade show with custom giveaways. We satisfy our clients with our high quality services and fast productions. Investing in giveaways and promotional products is like investing in the potential of your business. Our range of giveaway and promotional products includes executive pen, key-chains, mugs, shields, wood plagues, calendars, desktop items, diaries, note books, wallets, customized boxes, tea coasters, t-shirts, bags, frames and so much more ideas offering a variety of materials.-->
